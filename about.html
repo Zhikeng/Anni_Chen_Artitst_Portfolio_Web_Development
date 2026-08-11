@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Official portfolio and online shop of Anni Chen, contemporary visual artist and designer based in Boston. Explore digital art, paintings, brand identity, and available fine art prints.">
+    <meta name="keywords"
+        content="Anni Chen, visual artist, digital art, contemporary art, paintings, brand identity, illustration, fine art prints, art shop, Boston artist">
+    <title>Anni Chen Portfolio: About</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation Menu -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html"><img src="images/Mark2026_anni_chen.png" alt="Anni Chen Logo"></a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="services.html">Support Services</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <header class="banner" id="about-banner">
+        <div class="banner-overlay">
+            <div class="banner-content">
+                <h1 class="site-title">About the Artist</h1>
+                <h2 class="artist-name">Anni Chen</h2>
+                <p class="tagline">Bio, Resume & Artistic Statement</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <section class="intro-section">
+            <div class="intro-text">
+                <h2>Biography</h2>
+                <p>Anni Chen is a contemporary visual artist and designer based in Boston, Massachusetts. Growing up
+                    surrounded by a blend of classical aesthetics and modern architecture, Anni developed a deep
+                    fascination with how environments shape human emotion and storytelling.</p>
+                <p>She pursued formal training in fine arts and digital media design, refining her expertise across
+                    brand identity, illustration, and fine art painting. Her technical background empowers her to bridge
+                    traditional mediums with modern digital workflows seamlessly.</p>
+                <p>Today, Anni's creative practice spans commissioned brand identities, conceptual digital
+                    illustrations, and expressive canvas paintings. Her studio work explores the dynamic tension between
+                    structured geometric systems and fluid organic expressions.</p>
+                <p>Anni's artwork and design pieces have been featured in various regional exhibitions, digital
+                    publications, and private collections, continuously striving to create meaningful visual experiences
+                    that resonate deeply with audiences.</p>
+            </div>
+            <div class="featured-work">
+                <div class="work-preview" style="flex: 1;">
+                    <img class="about-image" src="images/about_anni_chen.jpg" style="height:400px;"alt="about anni chen photo">
+                    <a href="https://drive.google.com/file/d/1F79WGwnAUBIxS-E0ab_haWUGk7FGewJO/view" target="_blank"
+                        rel="noopener noreferrer">
+                        <h3>Anni Chen</h3>
+                    </a>
+                    <p>Visual Design Artist</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="shipping-info" style="margin-top: 3rem;">
+            <h2>Artist's Statement</h2>
+            <blockquote style="font-style: italic; font-size: 1.2rem; margin: 1.5rem 0; color: var(--primary-color);">
+                "Art is the meeting point of analytical structure and emotional release. Through my work, I aim to
+                document the invisible currents of modern life—translating urban rhythms, light, and technology into
+                visual harmonies that invite viewers to pause, reflect, and reconnect."
+            </blockquote>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Artistic Portfolio</h3>
+                <p>© 2026 Anni Chen. All rights reserved.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-behance"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function () {
+            document.querySelector('.nav-menu').classList.toggle('show');
+        });
+    </script>
+</body>
+
+</html>

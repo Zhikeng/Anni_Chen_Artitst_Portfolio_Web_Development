@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Official portfolio and online shop of Anni Chen, contemporary visual artist and designer based in Boston. Explore digital art, paintings, brand identity, and available fine art prints.">
+    <meta name="keywords"
+        content="Anni Chen, visual artist, digital art, contemporary art, paintings, brand identity, illustration, fine art prints, art shop, Boston artist">
+    <title>Anni Chen Portfolio: Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation Menu -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html"><img src="images/Mark2026_anni_chen.png" alt="Anni Chen Logo"></a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="services.html">Support Services</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Banner Section -->
+    <header class="banner" id="home-banner">
+        <div class="banner-overlay">
+            <div class="banner-content">
+                <h1 class="site-title">Shining in the Sun</h1>
+                <h2 class="artist-name">Anni Chen</h2>
+                <p class="tagline">Digital Art & Creative Expression</p>
+                <a href="portfolio.html" class="cta-button">View Portfolio</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <section class="intro-section">
+            <div class="intro-text">
+                <h2>Welcome to My Creative Space</h2>
+                <p>I'm Anni Chen, a digital artist specializing in contemporary mixed-media art. My work explores
+                    the intersection of technology and traditional artistic expression.</p>
+                <p>This portfolio showcases my latest projects, available prints, and creative process. Feel free to
+                    explore my gallery or visit the shop to acquire limited edition pieces.</p>
+            </div>
+            <div class="featured-work">
+                <div class="work-preview">
+                    <a href="shop.html"><img class="product-image"
+                            style="height:250px; display: block; margin-left: auto; margin-right: auto;"
+                            src="images/shop_urban_echoes.jpg" alt="urban_echoes"></a>
+                    <h3>Latest Collection</h3>
+                    <p>"Urban Echoes" - Digital series 2024</p>
+                </div>
+                <div class="work-preview">
+                    <a href="https://www.mfa.org/exhibitions/upcoming" target="_blank" rel="noopener noreferrer"><img
+                            class="product-image"
+                            style="height: 250px; display: block; margin-left: auto; margin-right: auto;"
+                            src="images/mfa_boston_logo.png" alt="mfa_boston_logo"></a>
+                    <h3>Exhibitions</h3>
+                    <p>Gallery shows & upcoming events</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="quick-links">
+            <a href="shop.html" class="link-card">
+                <i class="fas fa-shopping-bag"></i>
+                <h3>Shop Prints</h3>
+                <p>Limited edition art prints</p>
+            </a>
+            <a href="portfolio.html" class="link-card">
+                <i class="fas fa-images"></i>
+                <h3>View Gallery</h3>
+                <p>Complete portfolio collection</p>
+            </a>
+            <a href="contact.html" class="link-card">
+                <i class="fas fa-envelope"></i>
+                <h3>Commission Work</h3>
+                <p>Custom art inquiries</p>
+            </a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Artistic Portfolio</h3>
+                <p>© 2026 Anni Chen. All rights reserved.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-behance"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function () {
+            document.querySelector('.nav-menu').classList.toggle('show');
+        });
+    </script>
+</body>
+
+</html>
